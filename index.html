@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello New Web</title>
+    <style>
+        .container{
+            height:5000px;
+            width:100%;
+            /*border:2px,solid,black;*/
+        }
+        .img1 img{
+            position:absolute;
+            opacity:1;
+            height:500px;
+            width:100%;
+           
+        }
+          .img1 .navbar{
+            display:flex;
+           justify-content:space-around;
+         position:relative;
+           top:0px;
+            gap:60px;
+           font-size:20px;
+          
+        }
+        .imgcontent span{
+            color:rgba(30, 201, 30, 0.971);
+        }
+        .imgcontent p{
+          color:white;
+        }
+        
+        
+        
+        .img1 .navbar ul{
+            display:flex;
+            gap:25px;
+            list-style: none;
+        }
+        .img1 .navbar button{
+            height:50px;
+            width:150px;
+            margin-top:10px;
+            border-radius:25px;
+            background-color:rgb(97, 199, 97);
+        }
+        .img1 .imgcontent{
+            position:relative;
+            margin:50px;
+            font-size:20px;
+            margin-top:80px;
+            height:300px;
+            width:600px;
+            
+        }
+        
+        .img1 .imgcontent button{
+        height:50px;
+        width:150px;
+        border-radius:25px;
+        background-color:rgba(101, 204, 101, 0.891);
+
+       }
+
+       .container2{
+        height:9400px;
+        width:100%;
+        background-color:rgb(245, 243, 241);
+       }
+       .aboutcleaningAndimg{
+        display:flex;
+        gap:95px;
+       }
+        .container2 .aboutImg {
+        height:500px;
+        width:600px;
+        /*background-color:aqua;*/
+       background-color:transparent;
+       
+       }
+       .container2 .aboutImg img{
+            height:300px;
+            width:400px;
+            margin-top:80px;
+            margin-left:75px;
+       }
+       .aboutContent {
+        height:500px;
+        width:510px;
+       background-color:aqua;
+       
+        background-color:transparent;
+        /*margin-top:50px;*/
+        padding-left:20px;
+
+       } 
+       .aboutContent h1{
+          font-size:40px;
+       }
+
+       .aboutContent p{
+         padding:20px;
+       }
+       .aboutContent span{
+        color:green;
+       }
+       .containerFor4div{
+        height:350px;
+        width:100%;
+        background-color:transparent;
+        /*background-color:rgb(152, 111, 190);*/
+        display:flex;
+       justify-content:space-around;
+       }
+        .containerFor4div .ResidentialServices{
+        height:250px;
+        width:300px;
+        background-color:transparent;
+        background-color:white;
+        margin-top:30px;
+        border-radius:15px;
+        padding-left:10px;
+       }
+       .commercialServices{
+          height:250px;
+        width:300px;
+        background-color:white;
+         margin-top:30px;
+        border-radius:15px;
+        padding-left:10px;
+       }
+       .SpecializedCleaning{
+          height:250px;
+        width:300px;
+       background-color:white;
+        margin-top:30px;
+        border-radius:15px;
+        padding-left:10px;
+       }
+       .officeCleaning{
+          height:250px;
+        width:300px;
+       background-color:white;
+        margin-top:30px;
+        border-radius:15px;
+        padding-left:10px;
+       }
+       .headingAndLogo{
+        display:flex;
+
+       }
+       .headingAndLogo img{
+        height:50px;
+        width:50px; 
+        
+        border-radius:25px;
+       margin-right:15px;
+       margin-top:15px;
+       }
+       .headingFor3div{
+        height:150px;
+        width:100%;
+        background-color:transparent;
+         /*background-color:aqua;*/
+        display:flex;
+        justify-content:space-around;
+        font-size:25px;
+        position:relative;
+       
+       }
+       .headingFor3div span{
+        color:green;
+       }
+       .whyChooseCetro{
+        height:900px;
+        width:1300px;
+        background-color:rgba(35, 56, 35, 0.831);
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+       }
+       .Choosehead1{
+        display:flex;
+        
+       
+       }
+       .Choosehead1Content h1{
+        font-size:40px;
+       }
+       .Choosehead1Content span{
+        color:rgb(20, 187, 20);
+       }
+       .Choosehead1Content{
+        height:250px;
+        width:500px;
+        background-color:transparent;
+        /*background-color:brown;*/
+        margin-top:75px;
+       margin-left:50px;
+        color:white;
+        padding-left:15px;
+       }
+       .Choosehead2{
+        height:400px;
+        display:flex;
+        background-color:transparent;
+        /*background-color:rgb(217, 154, 154);*/
+        justify-content:space-around;
+       }
+       .Choosehead2Img{
+        height:300px;
+        width:600px;
+       margin-top:25px;
+       background-color:transparent;
+      /* background-color:rgb(143, 186, 186);*/
+       }
+       .Choosehead2Img img{
+        height:300px;
+        width:500px;
+        margin-top:5px;
+        margin-left:10px;
+        border-radius:15px;
+       }
+       .Choosehead2Content{
+        height:500px;
+        width:500px;
+        background-color:transparent;
+        /*background-color:rgb(154, 204, 204);*/
+        color:white;
+
+       }
+       .Top{
+        display:flex;
+        gap:7px;
+        margin-top:25px;
+       }
+       .Top1 img{
+        height:50px;
+        width:50px;
+        border-radius:250px;
+        margin-top:20px;
+        
+       }
+       .fetauredService{
+        height:900px;
+        width:1300px;
+        background-color:transparent;
+        /*background-color:rgba(35, 56, 35, 0.831);*/
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+       }
+       .fetauredHead{
+        height:200px;
+        width:700px;
+        background-color:transparent;
+       /*background-color:rgb(143, 195, 195);*/
+        margin-left:270px;
+         margin-top:50px;
+         padding-top:50px;
+       }
+       .fetauredHead p{
+         text-align:center;
+       }
+       .fetauredHead h1{
+        font-size:40px;
+        padding-left:30px;
+        text-align: center;
+       }
+       .fetauredHead span{
+        color:green;
+       }
+       .fetauredText{
+        height:500px;
+        width:600px;
+       /* background-color:rgb(208, 154, 154);*/
+       }
+       .fetauredText span{
+        color:green;
+       }
+       .fetauredText ul{
+        list-style: none;
+        font-size:30px;
+       }
+       .fetauredContent{
+        display:flex;
+        gap:5px;
+        justify-content:space-around;
+       }
+       .fetauredImg{
+         height:500px;
+        width:600px;
+        background-color:transparent;
+       /* background-color:rgb(208, 154, 154);*/
+       }
+       .fetauredImg img{
+         height:400px;
+        width:500px;
+        margin-top:50px;
+        border-radius:15px;
+        margin-left:15px;
+       }
+       .trustedPartner{
+        height:900px;
+        width:1300px;
+        background-color:rgba(35, 56, 35, 0.831);
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+        display:flex;
+        gap:5px;
+       }
+       .trustedHead1{
+        height:400px;
+        width:500px;
+        background-color:transparent;
+        /* background-color:rgb(116, 174, 174);*/
+        padding-left:15px;
+        margin-top:70px;
+        margin-left:70px;
+        color:white;
+       }
+       .trustedHead1 h1{
+        font-size:35px;
+       }
+       .trustedHead1 h1 span{
+        color:rgb(20, 187, 20);
+       }
+        .trustedHead{
+            display:flex;
+            gap:10px;
+        }
+        .trustedHead img{
+            height:35px;
+            width:35px;
+            border-radius:25px;
+            margin-top:10px;
+        }
+        .trustedHead1 button{
+            height:40px;
+            width:130px;
+            margin-top:10px;
+            border-radius:25px;
+            background-color:rgb(151, 217, 151);
+            border-radius:none;
+        }
+        .trustedHead1Btn{
+            display:flex;
+            gap:20px;
+        }
+
+
+       .trustedImg{
+        height:400px;
+        width:500px;
+       /*background-color:rgb(116, 174, 174);*/
+        margin-top:450px;
+
+      
+       }
+       .trustedImg img{
+         height:400px;
+        width:400px;
+        border-radius:20px;
+       }
+       .trustedHead2{
+        height:500px;
+        width:270px;
+        color:white;
+       /* background-color:rgb(116, 174, 174);*/
+        padding-left:15px;
+        margin-top:100px;
+        margin-left:70px;
+        margin-right:100px;
+        
+       }
+        .trustedHead1Btn2 img{
+            height:35px;
+            width:35px;
+            border-radius:25px;
+          margin-top:20px;
+        }
+       .trustedHead1Btn2{
+        display:flex;
+        gap:10px;
+       
+       }
+
+       .trustedHead2 h1 span{
+        font-size:40px;
+       }
+       .ourProject{
+         height:900px;
+        width:1300px;
+        background-color:transparent;
+       /* background-color:rgba(35, 56, 35, 0.831);*/
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+       }
+       .projectHeading{
+        height:200px;
+        width:500px;
+        background-color:transparent;
+       /* background-color:rgb(143, 195, 195);*/
+        margin-left:400px;
+        margin-top:50px;
+        padding-top:50px;
+       }
+       .projectHeadImg{
+        display:flex;
+        justify-content: center;
+        gap:10px;
+       }
+       .projectHeadImg img{
+        height:50px;
+        width:50px;
+        border-radius:25px;
+    
+       }
+
+        .projectHeading p{
+       text-align: center;
+        }
+       .projectHeading h1{
+        font-size:40px;
+        padding-left:30px;
+        text-align: center;
+       }
+        .projectHeading h1 span{
+            color:green;
+        }
+       .project3div{
+        height:500px;
+        width:1300px;
+        background-color:transparent;
+       /* background-color:rgb(121, 187, 187);*/
+        display:flex;
+        gap:10px;
+        margin-top:50px;
+       justify-content:space-around;
+       
+      
+       }
+        .waterTank{
+           height:500px;
+           width:400px;
+           background-color:rgb(168, 109, 109);
+         border-radius:25px;
+          
+       }
+        .waterTank img{
+         position:absolute;
+           height:500px;
+           width:400px;
+           background-color:rgb(168, 109, 109);
+         border-radius:25px;
+      
+          
+       }
+      /* .waterTankHead{
+        margin-top:370px;
+        padding-left:15px;
+       
+    }*/
+    .projectImg2{
+        height:500px;
+        width:400px;
+        background-color:rgb(168, 109, 109);
+        border-radius:25px;
+          
+    }
+    .projectImg2 img{
+        height:500px;
+        width:400px;
+        background-color:rgb(168, 109, 109);
+        border-radius:25px;
+          
+    }
+    .projectImg3{
+        height:500px;
+        width:400px;
+        background-color:rgb(168, 109, 109); 
+        border-radius:25px;
+    }
+    .projectImg3 img{
+        height:500px;
+        width:400px;
+        background-color:rgb(168, 109, 109); 
+        border-radius:25px;
+    }
+    .askedQuestion{
+         height:750px;
+        width:1300px;
+        /*background-color:rgba(35, 56, 35, 0.831);*/
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+    }
+    .askedHeading{
+        height:200px;
+        width:400px;
+     /* background-color:rgb(126, 194, 194);*/
+       padding-top:30px;
+       margin-left:150px;
+       margin-top:20px;
+       
+    }
+    .askedHead{
+        display:flex;
+    }
+    .askedHead img{
+        height:40px;
+       width:40px;
+       border-radius:25px;
+    }
+   
+     .askedHeading h1{
+        font-size:40px;
+       
+     }
+     .askedHeading h1 span{
+        color:green;
+     }
+     .askedHeadImg{
+        height:400px;
+        width:1100px;
+        /*background-color:rgb(119, 181, 160);*/
+        display:flex;
+        margin-left:100px;
+        margin-top:20px;
+        gap:25px;
+        justify-content: space-around;
+        
+     }
+     .askedImg{
+        height:400px;
+        width:500px;
+       /* background-color:rgb(199, 129, 129);*/
+     }
+     .askedImg img{
+        height:400px;
+        width:500px;
+        border-radius:25px;
+       
+     }
+     .askedContent{
+        height:400px;
+        width:500px;
+        background-color:transparent;
+       /* background-color:rgb(199, 129, 129);*/
+     }
+      .askedContent button {
+       height:120px;
+        width:500px;
+        border-radius:20px;
+       margin-top:15px;
+       background-color:white;
+      }
+     .askedContent .BTN{
+     height:50px;
+     width:500px;
+     border-radius:20px;
+     margin-top:15px;
+     background-color:white;
+     }
+     .howToMakeImg{
+        height:750px;
+        width:1300px;
+        background-color:rgba(35, 56, 35, 0.831);
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+        position:relative;
+
+    }
+    .howToMakeImg img{
+        
+        height:750px;
+        width:1300px;
+        border-radius:25px;
+        z-index:-3;
+    }
+     .howToMakeText{
+        height:250px;
+        width:350px;
+        color:white;
+       position:absolute;
+       margin-top:150px;
+       margin-left:70px;
+
+     }
+     .howToMakeText h1{
+        font-size:35px;
+     }
+     .howToMakeText h1 span{
+        color:rgb(20, 187, 20);
+     }
+
+     .client{
+        height:600px;
+        width:1300px;
+       /* background-color:rgba(35, 56, 35, 0.831);*/
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+        position:relative;
+
+     }
+     .clientHead{
+        height:200px;
+        width:450px;
+       /* background-color:rgb(144, 116, 170);*/
+        text-align: center;
+      margin-left:400px;
+     }
+     .clientHead h1{
+        font-size:40px;
+
+     }
+     .clientHead h1 span{
+        color:green;
+     }
+
+     .clientHeadImg{
+        display:flex;
+        justify-content: center;
+     }
+      .clientHeadImg img{
+        height:40px;
+        width:40px;
+        border-radius:25px;
+      }
+      .client3Div{
+        height:400px;
+        width:1300px;
+        /*background-color:rgb(122, 190, 167);*/
+        display:flex;
+        justify-content: space-around;
+        margin-top:25px;
+      }
+      .client1div{
+        height:300px;
+        width:400px;
+        background-color:white;
+        padding:10px;
+        text-indent: 50px;
+       border-radius:20px;
+      }
+      .client1div h3 {
+        text-align: center;
+      }
+       .client1div p{
+        text-align: center;
+       }
+     
+      .clientImg1 img{
+        height:50px;
+        width:50px;
+        border-radius:25px;
+       margin-left:120px;
+       margin-top:0px;
+     
+        
+      }
+       .client2div{
+        height:300px;
+        width:400px;
+        background-color:white;
+        padding:10px;
+        text-indent: 50px;
+        border-radius:20px;
+      }
+       .client2div h3{
+        text-align: center;
+       }
+       .client2div p{
+        text-align: center;
+       }
+       .clientImg2 img{
+        height:50px;
+        width:50px;
+        border-radius:25px;
+        border:white;
+        margin-left:130px;
+       margin-top:0px;
+       }
+       .client3div{
+        height:300px;
+        width:400px;
+        padding:10px;
+        background-color:white;
+        text-indent: 50px;
+         border-radius:20px;
+      } 
+      .client3div h3{
+        text-align: center;
+      }
+       .client3div p{
+        text-align: center;
+       }
+       .clientImg3 img{
+        height:50px;
+        width:50px;
+        border-radius:25px;
+        border:white;
+        margin-left:130px;
+       margin-top:0px;
+       }
+       .firstCleaning{
+        height:400px;
+        width:1300px;
+       background-color:rgba(35, 56, 35, 0.831);
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+        position:relative;
+       }
+        .firstCleaning img{
+        height:400px;
+        width:1300px;
+        border-radius:20px;
+       opacity: 0.3;
+        z-index:-3;
+        }
+        .firstHeading{
+            height:250px;
+            width:400px;
+           /* background-color:rgb(154, 197, 197);*/
+            position:absolute;
+            margin-top:70px;
+            margin-left:70px;
+            padding:10px;
+            color:white;
+        }
+         .firstHeading h1{
+            font-size:35px;
+         }
+         .firstHeading h1 span{
+            color:rgb(7, 240, 7);
+         }
+        .firstCleaningHead{
+            display:flex;
+            gap:30px;
+            margin-top:20px;
+        }
+       .firstCleaningBtn button{
+        height:40px;
+        width:150px;
+        border-radius:25px;
+        margin-top:10px;
+        background-color:rgb(49, 171, 49);
+       }
+      .firstCleaningBtn1{
+        display :flex;
+      }
+       
+        .firstCleaningBtn1 img{
+        height:50px;
+        width:50px;
+        border-radius:25px;
+        margin-top:10px;
+       
+        }
+        .ourBlog{
+        height:900px;
+        width:1300px;
+       /* background-color:rgba(35, 56, 35, 0.831);*/
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+        }
+        .ourBlogHeading{
+            height:200px;
+            width:400px;
+           /* background-color:rgb(192, 103, 103);*/
+            text-align: center;
+           margin-left:450px;
+        }
+        .ourBlogHeading h1 {
+            font-size:35px;
+        }
+          .ourBlogHeading h1 span{
+           color:green;
+          }
+         .ourBlogHeadingImg{
+            display:flex;
+              justify-content: center;
+         }
+         .ourBlogHeadingImg img{
+            height:40px;
+            width:40px;
+            border-radius:25px;
+         
+         }
+        .ourBlog2Div{
+            display:flex;
+            justify-content: space-around;
+        }
+        .ourBlogImg{
+            height:700px;
+            width:600px;
+           /* background-color:rgb(160, 122, 196);*/
+        }
+        
+         .ourBlogImg1{
+            height:350px;
+            width:500px;
+          /*  background-color:rgb(140, 184, 184);*/
+            border-radius:20px;
+           margin-left:80px;
+           margin-top:10px;
+          position: relative;
+           z-index:1;
+         }
+        
+         .ourBlogP{
+            display:flex;
+            gap:20px;
+         }
+           .ourBlogImg2{
+            height:300px;
+            width:500px;
+            /*background-color:rgb(140, 184, 184);*/
+            border-radius:20px;
+           margin-left:80px;
+           margin-top:10px;
+           padding:10px;
+           }
+           .ourBlogImg2 h2{
+            font-size: 25px;
+           }
+            .ourBlogImg2 p span{
+                text-decoration: underline;
+            }
+            .ourBlogPImg{
+                display:flex;
+                gap:5px;
+            }
+            .ourBlogP img{
+                height:30px;
+                width:30px;
+                border-radius:25px;
+               margin-top:5px;
+                
+            }
+          .ourBlogImg1 img{
+            height:350px;
+            width:500px;
+            border-radius:20px;
+            position:relative;
+            z-index: -1;
+            
+          }
+          .ourBlogImg1 button{
+            height:40px;
+            width:150px;
+            position: absolute;
+            border-radius:25px;
+            margin-top:25px;
+            margin-left:20px;
+
+           background-color:rgba(150, 232, 150, 0.571);
+
+           
+         }
+          .ourBlogPImg img{
+            height:20px;
+            width:20px;
+            border-radius:25px;
+            margin-top:15px;
+               
+            }
+           .ourBlogContent{
+            height:700px;
+            width:600px;
+           /* background-color:rgb(160, 122, 196);*/
+          
+         }
+         .ourBlogContent1{
+            height:220px;
+            width:600px;
+           /* background-color:rgb(156, 107, 107);*/
+             display:flex;
+             gap:5px;
+         }
+        
+         
+         
+           .ourBlogContent1Img{
+             height:200px;
+             width:300px;
+            /* background-color:rgb(156, 156, 194);*/
+             margin-top:15px;
+             border-radius:20px;
+           }
+            .ourBlogContent1Img img{
+            height:200px;
+             width:300px;
+             border-radius:20px;
+            }
+            .ourBlogContent1Text{
+            height:200px;
+             width:300px;
+             /*background-color:rgb(156, 156, 194);*/
+             margin-top:15px;
+             border-radius:10px;
+             padding:5px;
+            }
+              .ourBlogContent1PImg{
+                display:flex;
+              }
+            .ourBlogContent1PImg img{
+             height:20px;
+            width:20px;
+            border-radius:25px;
+            margin-top:15px;
+            }
+           .ourBlogContent2{
+            height:220px;
+            width:600px;
+           /* background-color:rgb(156, 107, 107);*/
+           
+            display:flex;
+            gap:5px;
+           }
+            .ourBlogContent2Img{
+            height:200px;
+            width:300px;
+           /* background-color:rgb(156, 156, 194);*/
+            margin-top:15px;
+            border-radius:20px;
+           }
+           .ourBlogContent2Img img{
+            height:200px;
+             width:300px;
+             border-radius:20px;
+            }
+            .ourBlogContent2Text{
+            height:200px;
+             width:300px;
+             /*background-color:rgb(156, 156, 194);*/
+            margin-top:15px;
+             border-radius:10px;
+             padding:5px;
+            }
+            .ourBlogContent2PImg{
+                display:flex;
+            }
+            .ourBlogContent1PImg span{
+                text-decoration: underline;
+            }
+             .ourBlogContent2PImg span{
+                text-decoration: underline;
+             }
+            .ourBlogContent2PImg img{
+            height:20px;
+            width:20px;
+            border-radius:25px;
+            margin-top:15px;
+            }
+            .ourBlogContent3{
+            height:220px;
+            width:600px;
+           /* background-color:rgb(156, 107, 107);*/
+           display:flex;
+           gap:5px;
+           
+             
+         }
+         .ourBlogContent3Img{
+            height:200px;
+            width:300px;
+            /*background-color:rgb(156, 156, 194);*/
+            margin-top:15px;
+            border-radius:20px;
+           }
+           .ourBlogContent3Img img{
+            height:200px;
+             width:300px;
+             border-radius:20px;
+            }
+            .ourBlogContent3Text{
+            height:200px;
+             width:300px;
+            /*background-color:rgb(156, 156, 194);*/
+            margin-top:15px;
+             border-radius:10px;
+             padding:5px;
+            }
+        .ourSletter{
+        height:900px;
+        width:1300px;
+        background-color:rgba(35, 56, 35, 0.831);
+        margin-left:55px;
+        margin-right:50pc;
+        margin-top:50px;
+        border-radius:20px;
+       position:relative;
+       z-index:1;
+    }
+     .ourSletter img{
+        height:900px;
+        width:1300px;
+        position:relative;
+        opacity: 0.2;
+        z-index:-3;
+     }
+      .ourSletterHead{
+        position:absolute;
+        height:250px;
+        width:500px;
+       /* background-color:rgb(169, 115, 115);*/
+        text-align: center;
+       margin-top:50px;
+       margin-left:370px;
+      }
+      .ourSletterHead h1{
+        font-size:35px;
+        color:white;
+      }
+       .ourSletterHead h1 span{
+        color:rgba(73, 177, 73, 0.94);
+       }
+       .ourSletterBTN1{
+        height:40px;
+        width:150px;
+        border-radius:25px;
+        background-color:rgba(111, 185, 111, 0.785);
+       }
+      .ourSletterBTN{
+        height:40px;
+        width:250px;
+       border-radius:25px;
+      }
+      .ourSletter4div{
+        position:absolute;
+         height:300px;
+         width:1300px;
+         color:white;
+        /* background-color:rgb(138, 204, 182);*/
+         margin-top:350px;
+         display:flex;
+         justify-content: space-between;
+      }
+      .ourSletter1div{
+        height:250px;
+        width:300px;
+       /*background-color:rgb(160, 234, 234);*/
+        padding:10px;
+        margin-left:10px;
+        text-align: center;
+        text-indent: 30px;
+      }
+       .ourSletter2div{
+        height:250px;
+        width:200px;
+       /*background-color:rgb(160, 234, 234);*/
+      
+      }
+       .ourSletter2div h3{
+        color:rgb(66, 195, 66);
+       }
+        .ourSletter2div ul li{
+            list-style: none;
+            text-align: center;
+        padding-top:4px;
+        }
+        .ourSletter3div{
+        height:250px;
+        width:250px;
+       /* background-color:rgb(160, 234, 234);*/
+        text-align: center;
+      }
+       .ourSletter5div{
+        height:250px;
+        width:250px;
+        /*background-color:rgb(160, 234, 234);*/
+        text-align: center;
+        z-index:1;
+      }
+       .ourSletter5div h3{
+        color:rgb(66, 195, 66);
+       }
+       .ourSletter5divImg{
+         display:flex;
+         position:absolute;
+       }
+        .ourSletter5divImg img{
+            height:30px;
+            width:30px;
+            border-radius:25px;
+            margin-top:5px;
+           z-index:-3;
+         }
+         .copyRight{
+         height:100px;
+         width:350px;
+         color:white;
+        /* background-color:rgb(186, 76, 76);*/
+         position:absolute;
+         bottom:100px;
+         margin-left:500px;
+         text-align: center;
+         display:flex;
+         z-index:1;
+         gap:5px;
+         }
+         .copyRight img{
+         height:30px;
+         width:30px;
+         border-radius:25px;
+         position:relative;
+         margin-top:13px;
+         z-index:-3;
+         }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img1">
+            <img src="https://media.istockphoto.com/id/1222545467/photo/young-cleaner-vacuuming-floor-in-office-near-colleagues.jpg?s=612x612&w=0&k=20&c=fiTmAS6745Iahw9m5fZP7c0Z9ntz-dSKC8ZZdwt8xUk=" alt="">
+            <div class="navbar">
+            <h2>cetro</h2>
+
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Project</li>
+                <li>Pages</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+            </ul>
+
+            <button>Get a Quote</button>
+        </div>
+          <div class="imgcontent">
+            <h1>Clean<span>Space<br> Starts</span> Here</h1>
+            <p>Professional cleaning servises for offices,homes,and commerial<br>
+            spaces - done right ,every time.</p>
+            
+            <button>Our Services</button>
+          </div>
+        </div>
+
+        <div class="container2">
+        <div class="aboutcleaningAndimg">
+            <div class="aboutImg">
+                <img src="https://st3.depositphotos.com/3662505/12978/i/450/depositphotos_129785588-Woman-cleaning-her-house.jpg" alt="">
+            </div>
+            <div class="aboutContent">
+             <p>ABOUT CLEANING AGENCY</p>
+             <h1>We Offer A <span>Wide Range <br>
+             Of Specialist </span>Cleaning<br>
+            Services.</h1>
+ 
+            <P>We are committed to deliverin excepional cleaning services that leave your spaces
+                sparkling clean and hygenic.Our Professional team uses eco-friendly proucts to ensure
+                a safe and healthy environment for you.
+            </P>
+            </div>
+        </div>   
+         <div class="containerFor4div">
+            <div class="ResidentialServices">
+                <div class="headingAndLogo">
+                    <h1>Resiential Services</h1>
+                    <img src="https://thumbs.dreamstime.com/b/green-houses-community-model-abstract-real-estate-logo-vector-professional-architecture-company-design-115154734.jpg" alt="Home Logo" >
+                </div><hr>
+                 <p>From regular housekeeping to deep
+                    cleaning,we ensure your home is always 
+                    welcoming and pritine.
+                 </p>
+            </div>
+            
+            <div class="commercialServices">
+                   <div class="headingAndLogo">
+                    <h1>Commercial  Services</h1>
+                    <img src="https://thumbs.dreamstime.com/b/vector-art-cleaning-service-logo-featuring-shield-equipment-symbolizing-protection-cleanliness-home-professional-406389684.jpg" alt="" >
+                </div><hr>
+                <p>Keep your workplace clean and pristine 
+                    with our comprehensive commercial 
+                    cleaning services.
+                </p>
+            </div>
+            <div class="SpecializedCleaning">
+                <div class="headingAndLogo">
+                    <h1>Specialized  Services</h1>
+                    <img src="https://png.pngtree.com/png-clipart/20230908/original/pngtree-logo-design-template-for-a-house-cleaning-service-featuring-a-sign-png-image_10949644.png" alt="" >
+                </div><hr>
+                <p>We offer specialized services,including
+                    carpet cleaning,window washing, and 
+                    address specific cleaning needs.
+                </p>
+            </div>
+            <div class="officeCleaning">
+                <div class="headingAndLogo">
+                    <h1>Office <br> Services</h1>
+                    <img src="https://e7.pngegg.com/pngimages/373/218/png-clipart-hand-washing-computer-icons-cleaning-hygiene-wash-photography-hand.png" alt="" >
+                </div><hr>
+                <p>We offer specialized services,including 
+                    carpet cleaning,window washing,and 
+                    addres specific cleaning needs.
+                </p>
+
+                 </div>
+                 </div>
+                 <div class="headingFor3div">
+                    <h1>VACUUM</h1>
+                    <span><h1>CLEANING</h1></span>
+                    <h1>SWEEPING</h1>
+                 </div>
+               
+                  <div class="whyChooseCetro">
+                   <div class="Choosehead1">
+                    <div class="Choosehead1Content">
+                        <p>WHY CHOOSE CETRO</p>
+                     <h1>The Perfect <span>Solution For Living </span>Space</h1>
+                     <p>Behind our commitment to providing a Best Cleaning Services.
+                        We have strenghts and differeces that create trust and love from Customers. </p>
+                    </div>
+                    <div class="Choosehead1Img">
+                        <img src="" alt="">
+                    </div>
+                   </div>
+                   
+                   
+                   <div class="Choosehead2">
+                    <div class="Choosehead2Img">
+                        <img src="https://t4.ftcdn.net/jpg/03/31/71/07/360_F_331710731_Pryo2G1zlMmQUmfBef3J3G66xMySC3qS.jpg" alt="">
+                    </div>
+                    <div class="Choosehead2Content">
+                         <div class="Top">
+                           <div class="Top1">
+                             <img src="https://img.icons8.com/?size=1200&id=14407&format=jpg" alt=""></div> 
+                            <div class="Top2">
+                                <h2>Top Trusted Companies</h2>
+                                <p>Over 10 year of providing industrial cleaning ervices.
+                                    Cetro Clean has saved nearly 10,000 Customers with 
+                                    98% satisfaction. 
+                                </p>
+                            </div>
+                         </div>
+                         <div class="Top">
+                            <div class="Top1">
+                                <img src="https://static.vecteezy.com/system/resources/previews/036/098/309/non_2x/vacuum-cleaner-line-icon-isolated-on-white-background-vector.jpg" alt="">
+                            </div>
+
+                            <div class="Top2">
+                                <h2>High Quality</h2>
+                                <p>We use the most advanced cleaning equipment to clean 
+                                    all dust,stains and freshen up our clients'work.  </p>
+                            </div>
+                         </div>
+
+                         <div class="Top">
+                            <div class="Top1">
+                                <img src="https://static.vecteezy.com/system/resources/previews/014/410/208/non_2x/clean-spray-bottle-icon-outline-style-vector.jpg" alt="">
+                            </div>
+
+                            <div class="Top2">
+                            <h2>Green Cleaning Products</h2>
+                            <p> We use cleaning processes.Green product,
+                                biotechnology,bioegradble,do not harm the 
+                                environment,users. </p>
+                            </div>
+                         </div>
+                    </div>
+                   </div>
+                  </div>
+                   
+
+                  <div class="fetauredService">
+                    <div class="fetauredHead">
+                        <p>FETAURED SERVICE</p>
+                        <h1>Our Company <span>Provide The <br>
+                            Best </span>Cleaning Services </h1>
+                    </div>
+
+                    <div class="fetauredContent">
+                        <div class="fetauredText">
+                           <ul><hr>
+                           <span><li>Targeted Cleaning</li><hr></span>
+                            <li>Speciliazed Cleaning </li><hr>
+                            <li>Skilled Cleaning </li><hr>
+                            <li>Regular Home Cleaning </li><hr>
+                            <li>Move In Out Cleaning </li><hr>
+                            <li>Constrution Cleaning</li><hr>
+                           </ul>
+                        </div>
+
+                        <div class="fetauredImg">
+                            <img src="https://thumbs.dreamstime.com/b/man-women-cleaning-house-men-moping-floor-dusting-gloves-green-overalls-113740197.jpg" alt="">
+                        </div>
+                    </div>
+
+
+                  </div>
+         
+                   <div class="trustedPartner">
+
+                    <div class="trustedHead1">
+                        <div class="trustedHead"> 
+                            <img src="https://t4.ftcdn.net/jpg/03/34/05/49/360_F_334054947_41msgyhHah9l30R1njMkItJJ2stJzjWu.jpg" alt="">
+                             <h5>OUR TRUSTED PRTNER</h5>
+                            </div>
+                        
+                       <h1>Smart Cleaning <span>Solution For You 24/7 </span>Hours</h1>
+                       <p>Behind our commitment to providing a Best Cleaning Service,
+                        we have strengths and differenes that create trust and love
+                        from Customers.
+                       </p>
+                       <div class="trustedHead1Btn">
+                        <div class="trustedHead1Btn1"></div>
+                        <button>Learn More</button>
+                        <div class="trustedHead1Btn2">
+                            <img src="https://www.shutterstock.com/image-vector/ringing-phone-icon-retro-symbol-600nw-1098429050.jpg" alt="">
+                            <div class="trustedhead1Btn3">
+                                 <p>Need Help?</p>
+                            <h4>(+480)123 678 900</h4>
+                        </div>
+                            
+                        </div>
+                       
+                      </div>
+                      
+                      
+                    </div>
+
+                    <div class="trustedImg">
+                        <img src="https://img.freepik.com/free-photo/medium-shot-people-cleaning-building_23-2150454517.jpg" alt="">
+                    </div>
+                    
+                    <div class="trustedHead2">
+                        <h1> <span>299K</span></h1>
+                        <h5>Succssful Projects</5>
+                        <p>Over 250 successful project delivered
+                            with quality and care
+                        </p>
+                        <h1><span>364+</span></h1>
+                        <h5>Skilled Tradespeople </h5>
+                        <p>Our team of 30 expert ensures top-
+                            quality results
+                        </p>
+                        <h1><span>199+</span></h1>
+                        <h5>Happy Clients</h5>
+                        <p>All of our clients are satisfied with 
+                            our work and service
+                        </p>
+                    </div>
+                   
+                  </div>
+            
+                  <div class="ourProject">
+                    <div class="projectHeading">
+                        <div class="projectHeadImg">
+                        <img src="https://t4.ftcdn.net/jpg/03/34/05/49/360_F_334054947_41msgyhHah9l30R1njMkItJJ2stJzjWu.jpg" alt="">
+                        <p>OUR PROJECTS</p>
+                        </div>
+                        <h1>You Can Check<span> Portfoio<br>
+                             To Ckeck</span> Quality.</h1> 
+                        </h1>
+                    </div>
+                    <div class="project3div">
+                        <div class="waterTank">
+                           
+                            
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN4Lgz_AhbYY1FvgzJ8NmU03BMxGwuJeVcFQ&s" alt="">
+                        
+                        </div>
+                        <div class="projectImg2">
+                            <img src="https://media.istockphoto.com/id/1222545480/photo/young-cleaner-standing-near-cart-with-cleaning-supplies.jpg?s=612x612&w=0&k=20&c=p5D0TrqfJXl8t1d70UFKYKCqJMawdMyaiYpbrDrFv3I=" alt="">
+                        </div>
+                        <div class="projectImg3">
+                            <img src="https://img.freepik.com/premium-photo/happy-housework-house-keeping-service-female-singing-cleaning-dust-house-cleaning-agency-small-business-professional-equipment-cleaning-old-home_1137986-1281.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="askedQuestion">
+                    <div class="askedHeading">
+                        <div class="askedHead">
+                        <img src="https://images.vexels.com/media/users/3/321001/isolated/preview/146f1f22e57b65cd0553ffe5a307b75d-housekeeping-mop-icon.png" alt="">
+                      <p>PREQUETLY ASKED QUESTION</p></div>
+                      <h1>You Have <span>Questions,
+                        We Have</span> Answers
+                      </h1>
+                    </div>
+                    <div class="askedHeadImg">
+                        <div class="askedImg">
+                            <img src="https://thumbs.dreamstime.com/b/smiling-cleaning-lady-smiling-cleaning-lady-green-uniform-yellow-rubber-gloves-work-114114560.jpg" alt="">
+                        </div>
+
+                        <div class="askedContent">
+                            <button>
+                                <h2>What types of spaces do you clean?</h2>
+                                <p>We offer cleaning for home, offices, retail space,and even post-renovation
+                                    sites. Custom packages available based on your needs.
+                                </p>
+                            </button>
+                            <button class="BTN"><h3>Are your cleaning products eco-friendly?</h3></button>
+                            <button class="BTN"><h3>How do I book a cleaning session?</h3></button>
+                            <button class="BTN"><h3>Do I need to be home during the service? </h3></button>
+                            <button class="BTN"><h3>What if I'm not satisfied with the service?</h3></button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="howToMakeImg">
+                    <div class="howToMakeText">
+                    <h1>How To Make <span>Steps To 
+                        Get A Best</span> Cleaning 
+                        Services
+                    </h1>
+                    <p>5 star standard application</p>
+                    </div>
+                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2560,h_1707/https://wessexcleaning.com/wp-content/uploads/2024/05/AdobeStock_606479151-scaled.jpeg" alt="">
+                  </div>
+
+                  <div class="client">
+                    <div class="clientHead">
+                        <div class="clientHeadImg">
+                         <img src="https://images.vexels.com/media/users/3/321001/isolated/preview/146f1f22e57b65cd0553ffe5a307b75d-housekeeping-mop-icon.png" alt="">
+
+                           <p>WHAT CLIENTS SAY</p>
+                        </div>
+                       <h1>Hear What <span>Our Global 
+                        Clients </span>Say
+                    </h1>
+                    </div>
+                   <div class="client3Div">
+                     <div class="client1div">
+                       <div class="clientImg1">
+                        <img src="https://files.idyllic.app/files/static/3998402?width=256&optimizer=image" alt="">
+                       </div>
+                    <p> "I always look farward to welcoming the Maid
+                            Brigade ladies into my home.I get to relax and enjoy 
+                            the morning, and before I know it, my entire home is 
+                            clean and sparkly from top to bottom.Thank you.<br>
+                         Thank you.Thank you."
+                        </p><hr>
+                        <h3>Ariana Green</h3>
+                        <p>Manager</p>
+                     </div>
+
+                     <div class="client2div">
+                        <div class="clientImg2">
+                        <img src="https://files.idyllic.app/files/static/3967879?width=256&optimizer=image" alt="">
+                       </div>
+                        <p>" We recently moved to the area and are very happy that we
+                            chose Maid Brigade. They do an excellent job every time.
+                          They provide their arrival time and are always punctual. It is 
+                         also important to us that they use environmentally friendly 
+                         cleaning products." </p><hr>
+                          <h3>Ariana Green</h3>
+                          <p>Manager</p>
+                     </div>
+
+                     <div class="client3div">
+                        <div class="clientImg3">
+                        <img src="https://files.idyllic.app/files/static/2853388" alt="">
+                        </div>
+                        <p>"If it wasn't for Cetro, I don't think I could live in my home.
+                            Every month,the efficient,friendly crew shows up and does a 
+                            through cleaning. When they are done,everything smells good,and I am so
+                            happy to have found this great service.
+                        </p><hr>
+                        <h3>Ariana Green</h3>
+                        <p>Manager</p>
+                     </div>
+
+                   </div>
+                  </div>
+                 <div class="firstCleaning">
+                    <div class="firstHeading">
+                    <h1>Get Your First<span> Cleaning 
+                        Absolutely </span>For Free.
+                    </h1>
+                   <div class="firstCleaningHead">
+                   <div class="firstCleaningBtn"><button>Book A Online</button></div>
+                  <div class="firstCleaningBtn1">
+                 
+                 <div class="firstCleaningBtn1Img">   <img src="https://www.shutterstock.com/shutterstock/videos/1077404738/thumb/6.jpg?ip=x480" alt="">
+                    </div> 
+                    <div class="firstCleaningBtn1Text">
+                   <p>Need Help?</p>
+                   <h4>(+480)123 678 900</h4></div>
+                   
+                 </div>
+                   </div>
+                    </div>
+                  
+                    <img src="https://eshinecleaning.com/wp-content/uploads/2025/09/benefits-commercial-cleaning-scaled.webp" alt="">
+                 </div>
+                  
+
+                 <div class="ourBlog">
+                    <div class="ourBlogHeading">
+                     <div class="ourBlogHeadingImg">
+                  <img src="https://images.vexels.com/media/users/3/321001/isolated/preview/146f1f22e57b65cd0553ffe5a307b75d-housekeeping-mop-icon.png" alt="">
+
+                    <p>PROM OUR BLOG</p>
+                 </div>  
+                    <h1>Learn About <span>Our Latest 
+                        News </span>From Blog.
+                    </h1>
+                 </div>
+                 <div class="ourBlog2Div">
+                    <div class="ourBlogImg">
+                        <div class="ourBlogImg1">
+                        <button>Domestic</button>
+                        <img src="https://t3.ftcdn.net/jpg/17/25/94/88/360_F_1725948891_f40u5yrrKs7quSJgH9W2FtwoKUCo8uCM.jpg" alt="">
+                        </div>
+                        <div class="ourBlogImg2">
+                      <div class="ourBlogP">
+                        <p>MARCH 28,2025 </p>
+                          <div class="ourBlogPImg">
+                            <img src="https://w7.pngwing.com/pngs/429/434/png-transparent-computer-icons-icon-design-business-administration-admin-icon-hand-monochrome-silhouette-thumbnail.png" alt="">
+                          <P> BY ADMIN</P> 
+                       </div>
+                        </div> 
+                        <h2>The Ulimate Bathroom Cleaning Sparkle 
+                            From Sink To Shower!
+                        </h2>
+                        <div class="ourBlogPImg">
+                        <p><span>Read More</span></p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1TVq4nr_3GSd0E5oJi3U5DjXwngOZJHlp9GzLXUWHvft2-ee7fozirTW4CvWscna76ME&usqp=CAU" alt=""></div>
+                        </div>
+                    </div>
+                    
+                    <div class="ourBlogContent">
+                        <div class="ourBlogContent1">
+                       <div class="ourBlogContent1Img">
+                        <img src="https://media.istockphoto.com/id/1417833187/photo/professional-cleaner-vacuuming-a-carpet.jpg?s=612x612&w=0&k=20&c=5h8NBR190d46Ni4MclqJ7Zf9ZOtf3TM3gPRJaHUdMjk=" alt="">
+                       </div>
+
+                       <div class="ourBlogContent1Text">
+                         <div class="ourBlogP">
+                         <p>MARCH 28,2025 </p>
+                          <div class="ourBlogPImg">
+                            <img src="https://w7.pngwing.com/pngs/429/434/png-transparent-computer-icons-icon-design-business-administration-admin-icon-hand-monochrome-silhouette-thumbnail.png" alt="">
+                          <P> BY ADMIN</P> 
+                         </div>
+                         </div>
+                          <h3>How To Prepare Your Office For 
+                            Professional Cleaning Service</h3> 
+                            <div class="ourBlogContent1PImg">
+                              <p><span>Read More</span></p>
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1TVq4nr_3GSd0E5oJi3U5DjXwngOZJHlp9GzLXUWHvft2-ee7fozirTW4CvWscna76ME&usqp=CAU" alt=""></div>
+                            </div>
+                       </div><hr>
+                       
+                        
+
+                        <div class="ourBlogContent2">
+                            <div class="ourBlogContent2Img">
+                                <img src="https://www.noor-cleaning.com/cdn/shop/files/Eco-Friendly-Cleaning-Tips-for-Your-Office-274616738.jpg" alt="">
+                            </div>
+
+                            <div class="ourBlogContent2Text">
+                               <div class="ourBlogP">
+                              <p>MARCH 28,2025 </p>
+                              <div class="ourBlogPImg">
+                              <img src="https://w7.pngwing.com/pngs/429/434/png-transparent-computer-icons-icon-design-business-administration-admin-icon-hand-monochrome-silhouette-thumbnail.png" alt="">
+                             <P> BY ADMIN</P> 
+                             </div>
+                             </div> 
+                             <h3>Why Did My Carpet Turn Yellow Or 
+                                Brown After Cleaning?
+                             </h3>
+                              <div class="ourBlogContent2PImg">
+                              <p><span>Read More</span></p>
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1TVq4nr_3GSd0E5oJi3U5DjXwngOZJHlp9GzLXUWHvft2-ee7fozirTW4CvWscna76ME&usqp=CAU" alt=""></div>
+                            </div>
+                            </div>
+                            <hr>
+                        <div class="ourBlogContent3">
+                         <div class="ourBlogContent3Img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTabhWbEszADL9h8Ky-k0vwN95jhTZhLgr2Vg&s" alt="">
+                         </div>
+
+                         <div class="ourBlogContent3Text">
+                           <div class="ourBlogP">
+                              <p>MARCH 28,2025 </p>
+                              <div class="ourBlogPImg">
+                              <img src="https://w7.pngwing.com/pngs/429/434/png-transparent-computer-icons-icon-design-business-administration-admin-icon-hand-monochrome-silhouette-thumbnail.png" alt="">
+                             <P> BY ADMIN</P> 
+                             </div>
+                             </div> 
+                             <h3>How To Keep Your Wood Floors 
+                                Looking Beautiful
+                             </h3>
+                             <div class="ourBlogContent2PImg">
+                              <p><span>Read More</span></p>
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1TVq4nr_3GSd0E5oJi3U5DjXwngOZJHlp9GzLXUWHvft2-ee7fozirTW4CvWscna76ME&usqp=CAU" alt=""></div>
+                            </div>
+
+                         </div>
+                        </div>
+                          
+                            
+                        </div>
+                         
+
+                        </div>
+
+                  <div class="ourSletter">
+                       <div class="ourSletterHead">
+                        <h1>Join Our<span> Newsletter<br> 
+                            Stay Up To</span> Date
+                           
+                        </h1>
+                        <button class="ourSletterBTN">Email address..</button>
+                        <button class="ourSletterBTN1">Subscribe Now </button>
+                       </div>
+                      
+                       <div class="ourSletter4div">
+                        <div class="ourSletter1div">
+                            <h2>cetro</h2>
+                            <p>We work with a passion of taking
+                                challeges and creating new ones in 
+                                advertising sector.
+                            </p>
+                        </div>
+
+                        <div class="ourSletter2div">
+                            <ul>
+                                <li><h3>About Us</h3></li>
+                                <li>Services</li>
+                                <li>Pricing</li>
+                                <li>Blog</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+
+                        <div class="ourSletter3div">
+                         <h3>Working Time</h3>
+                         <p>Mon - Fri: 9.00am - 5.00pm  </p>
+                         <p>Saturday: 10.00am - 6.00pm </p>
+                         <p>Sunday Closed</p>
+                        
+                        </div>
+
+
+                        <div class="ourSletter5div">
+                            <h3>(+084)456-0789</h3>
+                            <h4>support@example.com</h4>
+                            <div class="ourSletter5divImg">
+                            <img src="https://w7.pngwing.com/pngs/345/54/png-transparent-green-location-icon-illustration-computer-icons-google-maps-google-map-maker-adress-angle-leaf-grass.png" alt="">
+                           <p>5609 E Spargue Ave, Spokane Valley,
+                            WA 99212,USA
+                          </p>
+                          </div>
+                        </div>
+
+                       </div>
+                      <div class="copyRight">
+                        <img src="https://i.pinimg.com/564x/88/ea/9f/88ea9fd633cbc86ab7feb44cb0a4d214.jpg" alt="">
+                        <p>Copyright 2025 Cetro.All rights reserved.</p>
+                      </div>
+
+
+                     <img src="https://www.shutterstock.com/image-photo/asian-young-cleaning-service-woman-600nw-2086279141.jpg" alt="">
+                    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                 
+                
+                
+                </div>
+                 </div>
+                 
+                
+                </div>
+                
+                
+                
+                
+                
+                
+                
+              
+              
+              
+              
+                </div>
+        
+        
+        
+        </div>
+    </div>
+</body>
+</html>
